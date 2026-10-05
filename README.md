@@ -1,119 +1,218 @@
-# PicGo 
+<div align="center">
+  <h3>Special thanks to</h3>
+  <table>
+    <tr>
+      <td align="center" valign="middle" width="50%">
+        <a href="https://modelflare.dev/sign-up?partner=1GIMVVBLWP1V">
+          <img alt="Modelflare sponsorship" width="400" src="https://pics.picgo.app/m/ef1a160c-c9ce-4605-9b9c-b2d355cd2de4.png">
+        </a>
+        <h3><a href="https://modelflare.dev/sign-up?partner=1GIMVVBLWP1V">Modelflare</a></h3>
+        <p>Modelflare: Full strength, stable, nothing watered down. Global SOTA models at a lower cost.</p>
+      </td>
+      <td align="center" valign="middle" width="50%">
+        <a href="https://castaly.modelflare.dev/sign-up?partner=1GIMVVBLWP1V">
+          <img alt="Castaly sponsorship" width="400" src="https://pics.picgo.app/m/284def41-2f23-47e6-9d64-7017d386a221.png">
+        </a>
+        <h3><a href="https://castaly.modelflare.dev/sign-up?partner=1GIMVVBLWP1V">Castaly</a></h3>
+        <p>Castaly: Full strength, no upscaling. 40+ image and video models, including NSFW.</p>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle" width="50%">
+        <a href="https://www.nocobase.com/?utm_source=picgo">
+          <img alt="NocoBase sponsorship" width="400" src="https://static-docs.nocobase.com/Logo-Black.png">
+        </a>
+        <h3><a href="https://www.nocobase.com/?utm_source=picgo">NocoBase</a></h3>
+        <p>AI + No-Code Build reliable business systems</p>
+      </td>
+      <td align="center" valign="middle" width="50%">
+        <a href="https://console.neon.tech/app/?promo=PicGo">
+          <picture>
+            <source media="(prefers-color-scheme: dark)" srcset="https://neon.com/brand/neon-logo-dark-color.svg">
+            <source media="(prefers-color-scheme: light)" srcset="https://neon.com/brand/neon-logo-light-color.svg">
+            <img alt="Neon sponsorship" width="400" src="https://neon.com/brand/neon-logo-dark-color.svg">
+          </picture>
+        </a>
+        <h3><a href="https://console.neon.tech/app/?promo=PicGo">Neon</a></h3>
+        <p>Fast Postgres Databases for Teams and Agents</p>
+      </td>
+    </tr>
+  </table>
+</div>
 
-> 图片上传+管理新体验 
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/12621342/33876119-85a5148e-df5f-11e7-8843-46224e595d52.png" alt="">
-</p>
-<p align="center">
-  <a href="https://github.com/feross/standard">
-    <img src="https://img.shields.io/badge/code%20style-standard-green.svg?style=flat-square" alt="">
-  </a>
-  <a href="https://travis-ci.org/Molunerfinn/PicGo/builds">
-    <img src="https://img.shields.io/travis/Molunerfinn/PicGo.svg?style=flat-square" alt="">
-  </a>
-  <a href="https://github.com/Molunerfinn/PicGo/releases">
-    <img src="https://img.shields.io/github/downloads/Molunerfinn/PicGo/total.svg?style=flat-square" alt="">
-  </a>
-  <a href="https://github.com/Molunerfinn/PicGo/releases/latest">
-    <img src="https://img.shields.io/github/release/Molunerfinn/PicGo.svg?style=flat-square" alt="">
-  </a>
-</p>
+---
 
-## 应用说明
+[中文](./README_zh-CN.md) | **English**
 
-**PicGo在上传图片之后自动会将图片链接复制到你的剪贴板里，可选5种复制的链接格式。**
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Molunerfinn/test/master/picgo/New%20LOGO-150.png" alt="PicGo Logo">
+  <h1>PicGo</h1>
+  <h3>The Ultimate Image Uploader for Efficient Creators</h3>
+  
+  <p align="center">
+    <a href="https://github.com/Molunerfinn/PicGo/actions">
+      <img src="https://img.shields.io/badge/code%20style-standard-green.svg?style=flat-square" alt="">
+    </a>
+    <a href="https://github.com/Molunerfinn/PicGo/actions">
+      <img src="https://github.com/Molunerfinn/PicGo/actions/workflows/main.yml/badge.svg" alt="">
+    </a>
+    <a href="https://github.com/Molunerfinn/PicGo/releases">
+      <img src="https://img.shields.io/github/downloads/Molunerfinn/PicGo/total.svg?style=flat-square" alt="">
+    </a>
+    <a href="https://github.com/Molunerfinn/PicGo/releases/latest">
+      <img src="https://img.shields.io/github/release/Molunerfinn/PicGo.svg?style=flat-square" alt="">
+    </a>
+    <a href="https://github.com/PicGo/bump-version">
+      <img src="https://img.shields.io/badge/picgo-convention-blue.svg?style=flat-square" alt="">
+    </a>
+    <a href="https://atomgit.com/Molunerfinn/PicGo">
+      <img src="https://atomgit.com/Molunerfinn/PicGo/star/badge.svg" alt="">
+    </a>
+  </p>
+</div>
 
-PicGo目前支持了
+## 📖 Overview
 
-- `微博图床` v1.0
-- `七牛图床` v1.0
-- `腾讯云COS v4\v5版本` v1.1 & v1.5.0
-- `又拍云` v1.2.0
-- `GitHub` v1.5.0
-- `SM.MS` v1.5.1
-- `阿里云OSS` v1.6.0
-- `Imgur` v1.6.0
+**PicGo aims to make image uploading a seamless part of your creative workflow.**
 
-未来将不增加默认的图床支持。待PicGo v2.0出来后你可以自行开发第三方图床插件。
+Whether you’re writing a blog post, taking notes, or authoring developer docs, PicGo helps you upload images in one step and automatically copies the resulting link—so you can stay focused on creating, not uploading.
 
-支持macOS、windows 64位（>= v1.3.1），linux（>= v1.6.0）。
+### Supported Image hosts
 
-支持快捷键`command+shift+p`（macOS）或者`control+shift+p`（windows\linux）用以支持快捷上传剪贴板里的图片（第一张）。PicGo v1.4.0版本及以上支持自定义快捷键，使用方法见[配置手册](https://github.com/Molunerfinn/PicGo/wiki/%E8%AF%A6%E7%BB%86%E7%AA%97%E5%8F%A3%E7%9A%84%E4%BD%BF%E7%94%A8#%E8%87%AA%E5%AE%9A%E4%B9%89%E5%BF%AB%E6%8D%B7%E9%94%AE)。
+PicGo supports mainstream Image hosts out of the box, and can be extended indefinitely through its plugin system:
 
-开发进度可以查看[Projects](https://github.com/Molunerfinn/PicGo/projects)，会同步更新开发进度。
+- **China cloud vendors**: Qiniu, Tencent Cloud COS, UPYUN, Alibaba Cloud OSS
+- **International / open platforms**: GitHub, SM.MS(S.EE), Imgur
+- **More options via plugins**: AWS S3, Cloudflare R2, MinIO, and more
 
-**如果第一次使用，请参考应用使用[手册](https://github.com/Molunerfinn/PicGo/wiki)。遇到问题了还可以看看[FAQ](https://github.com/Molunerfinn/PicGo/blob/dev/FAQ.md)以及被关闭的[issues](https://github.com/Molunerfinn/PicGo/issues?q=is%3Aissue+is%3Aclosed)。**
+> **Note**: PicGo itself will no longer add new third-party Image hosts by default. You can build Image host plugins yourself—see [PicGo-Core](https://docs.picgo.app/core/).
 
-## 下载安装
+## ✨ Key Features
 
-macOS用户请下载最新版本的`dmg`文件，windows用户请下载最新版本的`exe`文件，linux用户请下载`AppImage`文件。
+PicGo is built around a fast, low-friction image upload experience:
 
-点击此处下载[应用](https://github.com/Molunerfinn/PicGo/releases)。
+### ⚡ Smooth writing flow
+- **Auto-copy links**: once an upload finishes, the link is copied to your clipboard automatically.
+- **Flexible formats**: Markdown, HTML, URL, custom templates—paste directly into any editor.
+- **Zero-Context Switching**: Don't switch windows. Just paste images directly into your favorite editor, and let PicGo handle the upload in the background.
+  - _Enable this workflow via native support or community plugins:_ [Obsidian](https://obsidian.md) \ [VS Code](https://code.visualstudio.com/) \ [Typora](https://typora.io/) \ [Neovim](https://neovim.io/) \ [MarkText](https://marktext.me/) \ [SiYuan](https://b3log.org/siyuan/en/) \ And more...
 
-**如果你是Arch类的Linux用户，可以直接通过`aurman -S picgo-appimage`来安装PicGo。感谢@houbaron的贡献！**
+### 🚀 Fast uploads
+- **Multiple ways to upload**: drag & drop, paste from clipboard, hotkeys, and even right-click context menu upload on macOS/Windows.
+- **Global hotkey**: press `Command+Shift+U` (macOS) / `Ctrl+Shift+U` (Windows/Linux) to open the upload window without leaving your current app. The global key can be customized.
 
-**如果是国内用户下载github release文件速度很慢的话，推荐使用[Free Download Manager](http://www.freedownloadmanager.org/download.htm)来下载，速度会快。**
+### 🧩 Powerful plugin ecosystem
+- **Highly extensible**: plugins already exist for AWS S3, Cloudflare R2, MinIO, and many other Image hosts.
+- **Even more possibilities**: image compression, watermarking, renaming, Markdown image migration, and more.
+  - Explore plugins: [Awesome-PicGo](https://github.com/PicGo/Awesome-PicGo)
 
-## 应用截图
+### 🤖 AI-friendly
+More and more writing is handed off to AI. But the screenshots and charts it produces sit on your disk as `![](./chart.png)`, and they need to become real links before you publish. PicGo lets AI upload them too:
 
-![](https://user-images.githubusercontent.com/12621342/34242857-d177930a-e658-11e7-9688-7405851dd5e5.gif)
+- **[PicGo Skills](https://github.com/PicGo/skills)**: official Agent Skills that teach AI when and how to upload. Works with any AI tool that supports the skills format.
+  ```bash
+  npx skills@latest add PicGo/skills
+  ```
+- **[DeepSeek Harness plugin](https://github.com/PicGo/dsh-plugin)**: install it in [dsh](https://github.com/deepseek-ai/deepseek-harness) and your agent can upload to your image host on its own.
+  ```bash
+  dsh plugin --profile web add @picgo/dsh-plugin
+  ```
+
+Both reuse the image hosts and plugins you already configured in PicGo—nothing to set up twice. Read more in [this post](https://picgo.app/blog/2026/picgo-deepseek-harness-plugin/).
+
+### 🛠 Developer-friendly
+- **HTTP API**: upload via HTTP requests (v2.2.0+), making it easy to integrate with other tools.
+- **Open source**: fully open-source and transparent.
+- **Great documentation**: detailed docs help you get started quickly. For plugin development, see the [PicGo-Core docs](https://docs.picgo.app/core/).
+
+> There’s more to discover—development progress is tracked in [Projects](https://github.com/Molunerfinn/PicGo/projects).
+
+If you’re new to PicGo, start with the [User Guide](https://docs.picgo.app/gui/guide/getting-started). If you run into issues, check the [FAQ](https://github.com/Molunerfinn/PicGo/blob/dev/FAQ.md) and closed [issues](https://github.com/Molunerfinn/PicGo/issues?q=is%3Aissue+is%3Aclosed).
+
+## Download & Install
+
+| Source                                                                           | Link / Installation                                         | Platform   | Notes                                   |
+| -------------------------------------------------------------------------------- | ----------------------------------------------------------- | ---------- | --------------------------------------- |
+| GitHub Releases                                                                  | https://github.com/Molunerfinn/PicGo/releases               | All        | Downloads may be slow in mainland China |
+| [Shandong University mirror](https://mirrors.sdu.edu.cn/)                        | https://mirrors.sdu.edu.cn/github-release/Molunerfinn_PicGo | All        | Thanks to the mirror for hosting        |
+| [Scoop](https://scoop.sh/)                                                       | `scoop bucket add extras` & `scoop install picgo`           | Windows    | Thanks to @huangnauh and @Gladtbam      |
+| [Chocolatey](https://chocolatey.org/)                                            | `choco install picgo`                                       | Windows    | Thanks to @iYato                        |
+| [Homebrew](https://brew.sh/)                                                     | `brew install picgo --cask`                                 | macOS      | Thanks to @womeimingzi11                |
+| [AUR](https://aur.archlinux.org/packages/yay)                                    | `yay -S picgo-appimage`                                     | Arch Linux | Thanks to @houbaron                     |
+| [Nix](https://search.nixos.org/packages?channel=unstable&query=picgo&show=picgo) | `nix-shell -p picgo`                                        | Nix/NixOS  | Thanks to @qrzbing                      |
+
+## Screenshots
+
+![](https://raw.githubusercontent.com/Molunerfinn/PicGo/dev/assets/picgo-v3.gif)
 
 ![picgo-menubar](https://user-images.githubusercontent.com/12621342/34242310-b5056510-e655-11e7-8568-60ffd4f71910.gif)
 
-## 开发说明
+## Development
 
-> 目前仅针对Mac、Windows。Linux平台并未测试。
+> Currently tested on macOS and Windows only. Linux has not been fully tested.
 
-如果你想要学习、开发、修改或自行构建PicGo，可以依照下面的指示：
+If you want to learn, contribute, modify, or build PicGo yourself:
 
-> 如果想学习Electron-vue的开发，可以查看我写的系列教程——[Electron-vue开发实战](https://molunerfinn.com/tags/Electron-vue/)
+> For an Electron-vue learning series, see: [Electron-vue development](https://molunerfinn.com/tags/Electron-vue/)
 
-1. 你需要有node、git环境。需要了解npm的相关知识。
-2. `git clone https://github.com/Molunerfinn/PicGo.git` 并进入项目
-3. `npm install` 下载依赖
-4. Mac需要有Xcode环境，Windows需要有VS环境。
+1. Install Node.js and Git, and make sure you’re familiar with npm basics.
+2. Clone the repo: `git clone https://github.com/Molunerfinn/PicGo.git` and enter the directory.
+3. Install dependencies with `pnpm`. If you don’t have it yet, install it from the [pnpm website](https://pnpm.io/installation) first.
+4. On macOS you’ll need Xcode; on Windows you’ll need Visual Studio.
+5. For contributing, see [CONTRIBUTING.md](./CONTRIBUTING.md).
 
-### 开发模式
+### Development mode
 
-输入`npm run dev`进入开发模式，开发模式具有热重载特性。不过需要注意的是，开发模式不稳定，会有进程崩溃的情况。此时需要：
-
-```bash
-ctrl+c # 退出开发模式
-npm run dev # 重新进入开发模式
-```
-
-### 生产模式
-
-如果你需要自行构建，可以`npm run build`开始进行构建。构建成功后，会在`build`目录里出现构建成功的相应安装文件。
-
-**注意**：如果你的网络环境不太好，可能会出现`electron-builder`下载`electron`二进制文件失败的情况。这个时候需要在`npm run build`之前指定一下`electron`的源为国内源：
+Run `pnpm run dev` to start the dev workflow with hot reload. Note: dev mode can be unstable and the process may crash—if that happens:
 
 ```bash
-export ELECTRON_MIRROR="https://npm.taobao.org/mirrors/electron/"
-npm run build
+ctrl+c # stop dev mode
+pnpm run dev # restart
 ```
 
-只需第一次构建的时候指定一下国内源即可。后续构建不需要特地指定。二进制文件下载在`~/.electron/`目录下。如果想要更新`electron`构建版本，可以删除`~/.electron/`目录，然后重新运行上一步，让`electron-builder`去下载最新的`electron`二进制文件。
+> On Windows, after dev mode starts, PicGo’s tray icon will appear in the bottom-right system tray area.
 
-## 其他相关
+### Production build
 
-- [vs-picgo](https://github.com/Spades-S/vs-picgo)：picgo的VSCode版。
+To build release artifacts locally, run `pnpm run build`. After a successful build, the installer files will be generated under `dist`.
 
-## 赞助
+**Note**: If your network is unstable, `electron-builder` may fail to download Electron binaries. You can set an alternative mirror before building:
 
-如果你喜欢PicGo并且它对你确实有帮助，欢迎给我打赏一杯咖啡哈~
+```bash
+export ELECTRON_MIRROR="https://npmmirror.com/mirrors/electron/"
+# On Windows: set ELECTRON_MIRROR=https://npmmirror.com/mirrors/electron/ (no quotes)
+pnpm run build
+```
 
-支付宝：
+Electron binaries are stored under `~/.electron/`. If you need to refresh them, delete that directory and rebuild.
+
+## Related Projects
+
+- [vs-picgo](https://github.com/PicGo/vs-picgo): PicGo for VS Code.
+- [flutter-picgo](https://github.com/PicGo/flutter-picgo): mobile app (Android & iOS).
+- [PicHoro](https://github.com/Kuingsmile/PicHoro): another mobile app compatible with PicGo config (Android only for now).
+- [skills](https://github.com/PicGo/skills): official Agent Skills that teach AI to upload with PicGo.
+- [dsh-plugin](https://github.com/PicGo/dsh-plugin): PicGo plugin for DeepSeek Harness.
+
+## Sponsorship
+
+If you like PicGo and it helps your workflow, feel free to buy me a coffee.
+
+Alipay:
 
 ![](https://user-images.githubusercontent.com/12621342/34188165-e7cdf372-e56f-11e7-8732-1338c88b9bb7.jpg)
 
-微信：
+WeChat Pay:
 
 ![](https://user-images.githubusercontent.com/12621342/34188201-212cda84-e570-11e7-9b7a-abb298699d85.jpg)
+
+GitHub Sponsors:
+
+[![Sponsor PicGo on GitHub](https://img.shields.io/badge/Sponsor-PicGo-blue.svg?style=flat-square)](https://github.com/sponsors/Molunerfinn)
 
 ## License
 
 [MIT](http://opensource.org/licenses/MIT)
 
-Copyright (c) 2017 Molunerfinn
+Copyright (c) 2017 - Now Molunerfinn

@@ -4,6 +4,7 @@ dist/web/*
 build/*
 !build/icons
 !build/installer.nsh
+!build/entitlements.mac.plist
 coverage
 node_modules/
 npm-debug.log
@@ -12,3 +13,22 @@ thumbs.db
 !.gitkeep
 yarn-error.log
 docs/dist/
+# local env files
+.env.local
+.env.*.local
+dist_electron/
+test.js
+.env
+scripts/*.yml
+
+#Electron-builder output
+/dist_electron
+.serena/
+.claude/
+dist/*
+test.js
+specs/
+.cache/
+openspec/
+bug*
+Trace-*.json
